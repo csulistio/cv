@@ -1,0 +1,48 @@
+/********************TAG SELECTORS************************/
+body {
+    background-color: #EAF6F6;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+
+
+img:hover {
+    height: 100px;
+    width: 100px;
+}
+
+
+/****************CLASS SELECTORS*************************/
+/* there can be multiple instance of a class per page*/
+/* used for identifying a group of items */
+/* an item can have multiple classes */
+.capybara {
+    height: 100px;
+    width: 200px;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/*************ID SELECTORS************************/
+/* there can only be one instance per id per page*/
+/* used for identifying one specific item */
+#heading {
+    color: blue;
+}
